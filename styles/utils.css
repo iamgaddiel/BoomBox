@@ -1,0 +1,11 @@
+* {
+  --dark: #333;
+  --white: #fff;
+  --light: #bab9b9;
+}
+
+.active {color: var(--active-color);}
+.dark-text > *{color: var(--dark);}
+.muted-text > *{color: var(--light);}
+.no-decoration { text-decoration: none;}
+.text-center{text-align: center;}
